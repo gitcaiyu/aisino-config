@@ -8,8 +8,3 @@ mybatis-plus:
   config-location: classpath:/mybatis-plus/*.xml
   configuration:
     call-setters-on-nulls: false
-eureka:
-  client:
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:1234/eureka

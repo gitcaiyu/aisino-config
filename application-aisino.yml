@@ -5,6 +5,6 @@ spring:
     password: root
     driver-class-name: com.mysql.jdbc.Driver
 mybatis-plus:
-  config-location: classpath:/mybatis-plus/*.xml
+  mapper-locations: classpath:/mybatis-plus/*.xml
   configuration:
     call-setters-on-nulls: false

@@ -8,3 +8,4 @@ mybatis-plus:
   mapper-locations: classpath:/mybatis-plus/*.xml
   configuration:
     call-setters-on-nulls: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

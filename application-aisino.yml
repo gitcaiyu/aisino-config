@@ -6,7 +6,7 @@ spring:
       password: root
       driver-class-name: com.mysql.jdbc.Driver
     sourceTwo:
-      url: jdbc:mysql://10.123.88.147:3306/osp-course?useUnicode=true&characterEncoding=utf-8
+      url: jdbc:mysql://10.123.88.117:3306/osp-course?useUnicode=true&characterEncoding=utf-8
       username: root
       password: root
       driver-class-name: com.mysql.jdbc.Driver

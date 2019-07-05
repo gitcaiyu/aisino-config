@@ -1,9 +1,15 @@
 spring:
   datasource:
-    url: jdbc:mysql://10.123.88.147:3306/osp-course?useUnicode=true&characterEncoding=utf-8
-    username: root
-    password: root
-    driver-class-name: com.mysql.jdbc.Driver
+    sourceOne:
+      url: jdbc:mysql://10.123.88.147:3306/osp-course?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+    sourceTwo:
+      url: jdbc:mysql://10.123.88.147:3306/osp-course?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
   redis:
     host: localhost
     port: 6379

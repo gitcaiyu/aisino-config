@@ -11,7 +11,7 @@ spring:
     sourcetwo:
       jdbc-url: jdbc:mysql://10.123.88.149:3306/osp-course?useUnicode=true&characterEncoding=utf-8
       username: root
-      password: root
+      password: 123456
       driver-class-name: com.mysql.jdbc.Driver
       type: com.alibaba.druid.pool.DruidDataSource
   redis:

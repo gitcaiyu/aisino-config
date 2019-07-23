@@ -26,5 +26,3 @@ mybatis-plus:
   configuration:
     call-setters-on-nulls: false
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-logging:
-  level: debug
